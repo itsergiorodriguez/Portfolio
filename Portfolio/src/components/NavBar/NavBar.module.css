@@ -1,0 +1,49 @@
+/* NavBar.module.css */
+/* NavBar.module.css */
+.container {
+    background-color: rgba(42, 77, 175, .75);
+    overflow: hidden;
+    padding: 2rem;
+  }
+  
+  .navLinks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navLinks li {
+    margin: 0 15px;
+  }
+  
+  .navLinks a {
+    color: rgb(224, 142, 19);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Estilos para pantallas más pequeñas (ejemplo: hasta 768px) */
+  @media screen and (max-width: 768px) {
+    .container {
+      height: auto; /* Ajusta la altura automáticamente */
+    }
+    
+    .navLinks {
+      flex-direction: column; /* Muestra los enlaces en columna */
+      text-align: center; /* Centra los enlaces verticalmente */
+    }
+    
+    .navLinks li {
+      margin: 10px 0;
+    }
+  }
