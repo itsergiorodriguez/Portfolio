@@ -1,0 +1,79 @@
+/* Estilo base para el contenedor principal */
+.aboutContainer {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* Estilo para el título principal */
+.title {
+  color: #FF8000;
+}
+
+/* Estilo para los párrafos */
+.presentation p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+/* Estilo para los encabezados secundarios */
+.presentation h2 {
+  color: #FF8000;
+  font-size: 24px;
+}
+
+/* Estilo para la lista de habilidades */
+.skillsList {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+/* Estilo para los enlaces de contacto */
+.contactLink {
+  color: #FF8000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Cambia el color al pasar el cursor sobre los enlaces */
+.contactLink:hover {
+  color: #FF8000;
+}
+
+/* Estilos para pantallas más pequeñas (ejemplo: hasta 768px) */
+@media screen and (max-width: 768px) {
+  .aboutContainer {
+    padding: 10px; /* Reduce el espacio interior */
+    margin: 10px auto; /* Reduce el margen exterior */
+    max-width: 100%; /* Ocupa todo el ancho disponible */
+  }
+
+  /* Puedes ajustar otros estilos aquí para pantallas más pequeñas */
+}
+.githubLink,
+.linkedinLink {
+  display: flex;
+  justify-content: center;
+  align-items:self-end;
+  font-size: 20px;
+  text-decoration: none;
+  vertical-align: middle; 
+  color: black;
+   margin-right: 1rem;/* Espaciado entre los enlaces y otros elementos de la barra de navegación */
+   margin-top: 3px;
+  
+}
+
+.githubLink .icon,
+.linkedinLink .icon {
+  font-size: 36px; /* Tamaño de los íconos */
+  margin-right: 5px; /* Espaciado entre el ícono y el texto */
+  margin-top: 10px;
+  vertical-align: middle; 
+}

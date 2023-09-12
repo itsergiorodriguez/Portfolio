@@ -4,5 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: aqua;
+  background-color: #0055A4;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold; 
 }
