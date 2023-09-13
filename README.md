@@ -1,4 +1,4 @@
-# Portfolio de Sergio Martin Rodriguez
+# Portfolio de Sergio Martin Rodriguez 😃
 
 ## Descripción
 Este es mi portfolio personal, creado para presentarme como Full Stack Developer Web y mostrar mis habilidades y proyectos. Aquí encontrarás información sobre mí, mis proyectos destacados y cómo contactarme.
