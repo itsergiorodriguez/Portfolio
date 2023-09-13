@@ -20,7 +20,7 @@
   height: 150px; /* Ajusta la altura de tu logo según tu preferencia */
   border-radius: 50%; /* Hace que la imagen sea circular */
   overflow: hidden; /* Oculta cualquier contenido que se desborde */
-  margin-right: -10px; /* Añade margen derecho para separar la imagen del texto */
+  margin-right: 10px; /* Añade margen derecho para separar la imagen del texto */
   
   /* Agrega el efecto al borde */
   box-shadow: 0 0px 30px #FF8000; /* Cambia el valor según el efecto deseado */

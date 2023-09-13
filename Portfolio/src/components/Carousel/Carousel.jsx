@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import img5 from '../../assets/img/img4.png';
+
+import img1 from '../../assets/img/Bienvenidos (1).png';
 import img2 from '../../assets/img/img1.png';
 import img3 from '../../assets/img/img2.png';
 import img4 from '../../assets/img/img3.png';
-
+import img5 from '../../assets/img/img4.png';
 import './carousel.css';
 
 
 const Carousel = () => {
-    const images = [ img2, img3, img4, img5];
+    const images = [img1, img2, img3, img4, img5];
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [selectedImage, setSelectedImage] = useState(images[0]);
 
