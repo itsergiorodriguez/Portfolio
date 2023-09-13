@@ -5,7 +5,7 @@ import Carousel from '../Carousel/Carousel';
 const Home = () => {
   return (
     <div className={Styles.container}>
-      <Carousel/>
+         <Carousel/>
     </div>
   );
 }

@@ -15,7 +15,7 @@
     justify-content: center;
     margin-top: 10px;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(255, 166, 0, 0.815);
+    
     padding: 20px;
 }
 
@@ -26,7 +26,7 @@
     border-radius: 20px;
     height: 35rem;
     width: 70rem;
-    border: 2px solid rgba(255, 166, 0, 0.815);
+    border: 1px solid black;
     transition: transform .8s ease-in-out; /* Transición de 0.5 segundos con aceleración y desaceleración */
     
 }
@@ -41,7 +41,7 @@
     margin-right: 10px;
     margin-left: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(255, 166, 0, 0.815);
+    
 }
 
 /* Estilos para la animación cuando cambia la imagen */

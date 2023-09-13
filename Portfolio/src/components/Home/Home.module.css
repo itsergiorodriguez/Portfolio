@@ -6,12 +6,17 @@
   }
   
   .title {
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 20px;
     font-family: 'Josefin Slab', serif;
     font-weight: bold; 
   }
- 
+  .title2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold; 
+  }
   
   .carousel {
     width: 80%; /* Ajusta el ancho del carrusel según tus necesidades */

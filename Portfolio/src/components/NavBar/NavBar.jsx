@@ -13,7 +13,12 @@ const NavBar = () => {
       <div className={Styles.logo}>
         <img src={Perfil} alt="Logo" className={Styles.logoImage} />
       </div>
-     
+      <div className={Styles.title}>
+        Sergio Martin Rodriguez
+        <br />
+     <div className={Styles.title2}>Full Stack Developer Web</div>      
+      </div> 
+          
       <ul className={Styles.navLinks}>
         <li className={Styles.textoIluminado}>
           <NavLink to="/" activeClassName={Styles.activeLink}>

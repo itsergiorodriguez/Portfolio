@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Centrar horizontalmente las tarjetas */
+  margin-top: 20px;
   
 }
 
@@ -11,10 +12,10 @@
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(10, 6, 6, 0.5);
-  padding: 2rem;
+  padding: 2.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  margin-right: 1rem;
+  margin-right: 2rem;
   /* Quita el margen izquierdo y utiliza un ancho flexible para adaptarse automáticamente */
   width: calc(33.33% - 2rem); /* Cambia el 33.33% según el número de tarjetas que desees en una fila */
   text-align: center;
@@ -72,7 +73,7 @@
   padding: 10px 20px; /* Ajusta el espaciado interno según lo necesites */
   background-color: #3498db; /* Color de fondo del botón */
   color: #fff; /* Color del texto del botón */
-  font-size: 16px; /* Tamaño de la fuente */
+  font-size: 20px; /* Tamaño de la fuente */
   border: none; /* Elimina el borde */
   border-radius: 5px; /* Borde redondeado */
   cursor: pointer;
@@ -81,7 +82,7 @@
 }
 
 .Button:hover {
-  background-color: #2980b9; /* Cambia el color de fondo en el hover */
+  background-color:  #FF8000; /* Cambia el color de fondo en el hover */
 }
 
 /* Media query para pantallas pequeñas */

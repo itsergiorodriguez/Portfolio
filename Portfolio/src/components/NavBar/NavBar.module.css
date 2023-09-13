@@ -1,4 +1,14 @@
 
+.container {
+  border: 1px solid black;
+  background-color: rgb(233, 231, 231);
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos en los extremos opuestos del contenedor */
+  align-items: center; /* Alinea verticalmente los elementos en el centro del contenedor */
+  padding: 10px 20px; /* Espaciado interno para separar el logo y los enlaces */
+  height: 150px; 
+  border-radius: 10px;
+}
 .logoImageContainer {
   display: flex;
   align-items: center;
@@ -10,31 +20,34 @@
   height: 150px; /* Ajusta la altura de tu logo según tu preferencia */
   border-radius: 50%; /* Hace que la imagen sea circular */
   overflow: hidden; /* Oculta cualquier contenido que se desborde */
-  margin-right: 50px; /* Añade margen derecho para separar la imagen del texto */
+  margin-right: -10px; /* Añade margen derecho para separar la imagen del texto */
   
   /* Agrega el efecto al borde */
-  box-shadow: 0 0 20px #FF8000; /* Cambia el valor según el efecto deseado */
+  box-shadow: 0 0px 30px #FF8000; /* Cambia el valor según el efecto deseado */
 }
 .circularImage {
   width: 50px; /* Ajusta el ancho de tu imagen circular según tu preferencia */
   height: 50px; /* Ajusta la altura de tu imagen circular según tu preferencia */
   border-radius: 50%; /* Hace que la imagen sea circular */
 }
-
-.container {
-  border: 1px solid black;
-  background-color: rgb(233, 231, 231);
-  display: flex;
-  justify-content: space-between; /* Alinea los elementos en los extremos opuestos del contenedor */
-  align-items: center; /* Alinea verticalmente los elementos en el centro del contenedor */
-  padding: 10px 20px; /* Espaciado interno para separar el logo y los enlaces */
-  height: 150px; 
-  border-radius: 10px;
+.title {
+  font-size: 40px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold; 
+  
 }
+.title2 {
+  font-size: 30px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold; 
+  margin-top: 10px;
+}
+
 
 .navLinks {
   list-style: none;
-  margin: 0;
+  margin: 400px;
+  margin-left: 100px;
   padding: 0;
   display: flex;
   align-items: center; 
@@ -54,11 +67,12 @@
   cursor: pointer; /* Cambiar el cursor al estilo de puntero */
 }
 .navLinks a {
-  color: #FF8000;
+  color:  #FF8000;
   text-decoration: none;
   font-size: 38px;
   font-family: 'Josefin Slab', serif;
   font-weight: bold; 
+  
  
 }
 .navLinks li:hover {
@@ -71,17 +85,12 @@
    transform: scale(1.05); /* Escalar el elemento cuando el mouse esté sobre él */
 }
 
-.logotext:hover {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajusta los valores según tus preferencias */
-}
 
 
-.logoSubtext:hover {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajusta los valores según tus preferencias */
-}
 /* Estilos para pantallas más pequeñas (ejemplo: hasta 768px) */
 @media screen and (max-width: 768px) {
   .container {
+
     flex-direction: column; /* Apila los elementos en columnas en pantallas pequeñas */
     text-align: center; /* Centra el contenido en el centro del contenedor */
   }
@@ -120,9 +129,7 @@
   margin-top: 10px;
   vertical-align: middle; 
 }
-/* NavBar.module.css */
 
-/* ... Tus estilos existentes ... */
 
 /* Estilos para pantallas más pequeñas (ejemplo: hasta 768px) */
 @media screen and (max-width: 768px) {
