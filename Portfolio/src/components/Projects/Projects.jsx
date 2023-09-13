@@ -35,6 +35,7 @@ const Projects = () => {
               className={Styles.Button} // Agrega una clase CSS para el botón
             >
               Visitar proyecto
+              
             </NavLink>
            </div>
         </div>
