@@ -13,7 +13,7 @@ const Projects = () => {
     {
       title: 'Perros-Razas',
       image: getImagen('Perros-Razas'),
-      link: 'https://pi-dogs-lime.vercel.app/Home',
+      link: 'https://pi-dogs-lime.vercel.app/',
     },
    
   ];
