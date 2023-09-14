@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
-
+import { NavLink } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className={styles.footer}>
@@ -9,9 +9,20 @@ const Footer = () => {
          
           <div className={styles.footerLinks}>
             <ul>
-              <li><a href="/inicio">Inicio</a></li>
-              <li><a href="/servicios">Servicios</a></li>
-              <li><a href="/Contacto">Contacto</a></li>
+              <li>
+                <NavLink to="/inicio" >
+                    Inicio
+               </NavLink></li>
+              <li>
+              <NavLink to="/servicios" >
+                  Servicios
+              </NavLink>
+              </li>
+              <li>
+              <NavLink to="/contacto" >
+                  Contacto
+              </NavLink>
+              </li>
             </ul>
           </div>
         </div>
