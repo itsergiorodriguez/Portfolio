@@ -1,0 +1,22 @@
+/* Contacto.module.css */
+
+.contactoContainer {
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .email {
+    font-size: 18px;
+    color: #007bff; /* Puedes cambiar el color a tu preferencia */
+  }
+  

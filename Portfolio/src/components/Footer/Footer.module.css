@@ -1,0 +1,60 @@
+/* Establece un tamaño de fuente base para hacer el diseño más adaptable */
+body {
+    font-size: 26px;
+    margin: 0; /* Añade margen cero para evitar espacios no deseados en el cuerpo */
+}
+
+/* Estilos generales del footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+    position: fixed; /* Cambia a position: fixed */
+    bottom: 0;
+    left: 0; /* Añade margen izquierdo cero para ocupar todo el ancho */
+    right: 0; /* Añade margen derecho cero para ocupar todo el ancho */
+    width: 100%;
+    /* Centra el contenido del footer horizontalmente */
+}
+
+.container {
+    padding: 20px 20px; /* Espaciado interno en dispositivos pequeños */
+}
+
+.footerLinks ul {
+    display: flex;
+    justify-content: center; /* Distribuye los elementos horizontalmente */
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerLinks ul li {
+    margin-right: 60px; /* Espaciado horizontal entre elementos de lista */
+}
+
+.footerLinks ul li:last-child {
+    margin-right: 0;
+}
+
+.footerLinks ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footerLinks ul li a:hover {
+    color: #00bcd4; /* Cambia el color al hacer hover */
+}
+
+/* Estilos específicos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px 10px; /* Reduce el espaciado interno en dispositivos pequeños */
+    }
+
+    .footerLinks ul li {
+        margin-right: 30px; /* Espaciado horizontal reducido en dispositivos pequeños */
+    }
+}
