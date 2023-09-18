@@ -1,13 +1,10 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import Styles from './NavBar.module.css';
-import Perfil from '../../assets/img/Perfil01.jpg';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import Styles from "./NavBar.module.css";
+import Perfil from "../../assets/img/Perfil01.jpg";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const NavBar = () => {
-
-
-
   return (
     <div className={Styles.container}>
       <div className={Styles.logo}>
@@ -16,9 +13,9 @@ const NavBar = () => {
       <div className={Styles.title}>
         Sergio Martin Rodriguez
         <br />
-     <div className={Styles.title2}>Full Stack Developer Web</div>      
-      </div> 
-          
+        <div className={Styles.title2}>Full Stack Developer Web</div>
+      </div>
+
       <ul className={Styles.navLinks}>
         <li className={Styles.textoIluminado}>
           <NavLink to="/" activeClassName={Styles.activeLink}>
@@ -38,19 +35,27 @@ const NavBar = () => {
       </ul>
 
       <div className={Styles.socialLinks}>
-        <a href={'https://github.com/itsergiorodriguez'} target="_blank" rel="noopener noreferrer" className={Styles.githubLink}>
+        <a
+          href={"https://github.com/itsergiorodriguez"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={Styles.githubLink}
+        >
           <AiFillGithub className={Styles.icon} />
           GitHub
           <span className={Styles.arrow}></span>
         </a>
-        <a href={'https://www.linkedin.com/in/sergio-martin-rodriguez-401853a3/'} target="_blank" rel="noopener noreferrer" className={Styles.linkedinLink}>
+        <a
+          href={"https://www.linkedin.com/in/sergio-martin-rodriguez-401853a3/"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={Styles.linkedinLink}
+        >
           <AiFillLinkedin className={Styles.icon} />
           LinkedIn
           <span className={Styles.arrow}></span>
         </a>
       </div>
-
-      
     </div>
   );
 };
