@@ -1,21 +1,26 @@
-import React from 'react';
-import Styles from './Projects.module.css';
-import MMarket from './Imagenes/MMarket.png';
-import Perros from './Imagenes/Perros.png';
-import { NavLink } from 'react-router-dom'; 
+import React from "react";
+import Styles from "./Projects.module.css";
+import MMarket from "./Imagenes/MMarket.png";
+import Perros from "./Imagenes/Perros.png";
+import Cuentos from "./Imagenes/Cuentos.png"
+import { NavLink } from "react-router-dom";
 const Projects = () => {
   const projects = [
     {
-      title: 'M-Market',
-      image: getImagen('M-Market'),
-      link: 'https://m-market-iota.vercel.app',
+      title: "M-Market",
+      image: getImagen("M-Market"),
+      link: "https://m-market-iota.vercel.app",
     },
     {
-      title: 'Perros-Razas',
-      image: getImagen('Perros-Razas'),
-      link: 'https://pi-dogs-lime.vercel.app/',
+      title: "Perros-Razas",
+      image: getImagen("Perros-Razas"),
+      link: "https://pi-dogs-lime.vercel.app/",
     },
-   
+    {
+      title: "Cuentos",
+      image: getImagen("Cuentos"),
+      link: "https://cuentos-five.vercel.app/",
+    },
   ];
 
   return (
@@ -27,17 +32,15 @@ const Projects = () => {
             <img src={project.image} alt={project.title} />
           </div>
           <div className={Styles.Info}>
-              
-          <NavLink
+            <NavLink
               to={project.link}
               target="_blank"
               rel="noopener noreferrer"
               className={Styles.Button} // Agrega una clase CSS para el botón
             >
               Visitar proyecto
-              
             </NavLink>
-           </div>
+          </div>
         </div>
       ))}
     </div>
@@ -46,15 +49,15 @@ const Projects = () => {
 
 export default Projects;
 
-
 function getImagen(title) {
   switch (title) {
-    case 'M-Market':
+    case "M-Market":
       return MMarket;
-     case 'Perros-Razas':
+    case "Perros-Razas":
       return Perros;
-   
-    default:
-      return ''; 
+    case "Cuentos":
+      return Cuentos;
+      default:
+        return ''; 
   }
 }
