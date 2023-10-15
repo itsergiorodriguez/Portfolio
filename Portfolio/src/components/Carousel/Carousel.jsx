@@ -11,7 +11,7 @@ import './carousel.css';
 
 
 const Carousel = () => {
-    const images = [img1, img2, img3, img4, img5];
+    const images = [img1, img2, img3, img4, img5, img6];
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [selectedImage, setSelectedImage] = useState(images[0]);
 
